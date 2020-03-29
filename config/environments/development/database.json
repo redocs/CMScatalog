@@ -2,13 +2,12 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "bookshelf",
+      "connector": "mongoose",
       "settings": {
-        "client": "sqlite",
-        "filename": ".tmp/data.db"
+        "uri": "mongodb+srv://adminCMS:cbSIskQMZkLhH82q@cmsdesignerproject-3f8gv.mongodb.net/strapi?retryWrites=true&w=majority"
       },
       "options": {
-        "useNullAsDefault": true
+        "ssl": true
       }
     }
   }
