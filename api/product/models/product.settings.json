@@ -16,17 +16,17 @@
     "Subtitle": {
       "type": "string"
     },
-    "Description": {
-      "type": "richtext"
-    },
-    "Link": {
-      "type": "string"
-    },
     "Image": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Link": {
+      "type": "string"
     },
     "Gallery": {
       "collection": "file",
