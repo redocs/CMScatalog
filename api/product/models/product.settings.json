@@ -28,6 +28,15 @@
     },
     "category": {
       "model": "categories"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Gallery": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
     }
   }
 }
