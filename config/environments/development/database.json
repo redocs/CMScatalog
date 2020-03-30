@@ -4,7 +4,7 @@
     "default": {
       "connector": "mongoose",
       "settings": {
-        "uri": "mongodb+srv://adminCMS:cbSIskQMZkLhH82q@cmsdesignerproject-3f8gv.mongodb.net/strapi?retryWrites=true&w=majority"
+        "uri": "mongodb+srv://adminCMS:0l7txEXHaiW1yxPP@cmsdesignproject-zgk1e.mongodb.net/strapicms?retryWrites=true&w=majority"
       },
       "options": {
         "ssl": true

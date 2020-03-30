@@ -10,33 +10,32 @@
     "timestamps": true
   },
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "description": {
-      "type": "richtext"
-    },
-    "subtitle": {
+    "Title": {
       "type": "string"
     },
-    "image": {
+    "Subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Image": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
-    },
-    "category": {
-      "model": "categories"
-    },
-    "Link": {
-      "type": "string"
     },
     "Gallery": {
       "collection": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "category": {
+      "model": "category"
     }
   }
 }
