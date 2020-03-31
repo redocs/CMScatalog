@@ -35,7 +35,16 @@
       "required": false
     },
     "category": {
-      "model": "category"
+      "model": "category",
+      "via": "products"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "brand": {
+      "model": "brand",
+      "via": "products"
     }
   }
 }

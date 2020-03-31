@@ -1,9 +1,9 @@
 {
   "kind": "collectionType",
   "connection": "default",
-  "collectionName": "categories",
+  "collectionName": "brands",
   "info": {
-    "name": "Category"
+    "name": "Brand"
   },
   "options": {
     "increments": true,
@@ -14,7 +14,7 @@
       "type": "string"
     },
     "products": {
-      "via": "category",
+      "via": "brand",
       "collection": "product"
     }
   }
