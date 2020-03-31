@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chi-siamo",
+      "handler": "chi-siamo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/chi-siamo",
+      "handler": "chi-siamo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/chi-siamo",
+      "handler": "chi-siamo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

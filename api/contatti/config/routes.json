@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contatti",
+      "handler": "contatti.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contatti",
+      "handler": "contatti.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contatti",
+      "handler": "contatti.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "chi_siamo",
+  "info": {
+    "name": "Chi Siamo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
