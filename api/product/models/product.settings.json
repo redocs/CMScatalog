@@ -35,16 +35,16 @@
       "required": false
     },
     "category": {
-      "model": "category",
-      "via": "products"
+      "via": "products",
+      "model": "category"
     },
     "Slug": {
       "type": "uid",
       "targetField": "Title"
     },
     "brand": {
-      "model": "brand",
-      "via": "products"
+      "via": "products",
+      "model": "brand"
     },
     "schedatecnica": {
       "type": "string"

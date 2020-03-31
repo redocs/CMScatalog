@@ -14,8 +14,12 @@
       "type": "string"
     },
     "products": {
-      "via": "brand",
-      "collection": "product"
+      "collection": "product",
+      "via": "brand"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Name"
     }
   }
 }
