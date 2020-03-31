@@ -45,6 +45,9 @@
     "brand": {
       "model": "brand",
       "via": "products"
+    },
+    "schedatecnica": {
+      "type": "string"
     }
   }
 }
