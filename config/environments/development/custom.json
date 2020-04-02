@@ -1,3 +1,4 @@
 {
+  "staticWebsiteBuildURL": "https://api.zeit.co/v1/integrations/deploy/QmVDXmCdohpTngaDMKvFkv54sDMb39YPYwtvEzaeZ6TEbB/PKxbmqTr9X",
   "myCustomConfiguration": "This configuration is accessible through strapi.config.environments.development.myCustomConfiguration"
 }

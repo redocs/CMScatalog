@@ -1,7 +1,8 @@
 'use strict';
+const axios = require('axios');
 
 /**
- * Lifecycle callbacks for the `contatti` model.
+ * Lifecycle callbacks for the `product` model.
  */
 
 module.exports = {
@@ -52,4 +53,36 @@ module.exports = {
   // After destroying a value.
   // Fired after a `delete` query.
   // afterDestroy: async (model, attrs, options) => {}
+  afterCreate: async entry => {
+    axios
+    .get(strapi.config.currentEnvironment.staticWebsiteBuildURL)
+    .then(function (response) {
+      console.log('update frontend');
+    })
+    .catch(() => {
+      console.log('error in update');
+    });
+  },
+
+  afterUpdate: async entry => {
+    axios
+    .get(strapi.config.currentEnvironment.staticWebsiteBuildURL)
+    .then(function (response) {
+      console.log('update frontend');
+    })
+    .catch(() => {
+      console.log('error in update');
+    });
+  },
+
+  afterDestroy: async entry => {
+    axios
+    .get(strapi.config.currentEnvironment.staticWebsiteBuildURL)
+    .then(function (response) {
+      console.log('update frontend');
+    })
+    .catch(() => {
+      console.log('error in update');
+    });
+  },
 };
