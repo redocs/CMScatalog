@@ -14,8 +14,8 @@
       "type": "string"
     },
     "products": {
-      "collection": "product",
-      "via": "category"
+      "via": "category",
+      "collection": "product"
     },
     "Slug": {
       "type": "uid",
